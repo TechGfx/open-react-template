@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router } from "react-router-dom";
+import { Router, BrowserRouter } from "react-router-dom";
 import { createBrowserHistory } from "history";
+import Root from './components/root';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -11,7 +12,13 @@ import './assets/scss/style.scss';
 
 const history = createBrowserHistory();
 
-ReactDOM.render(
+const nodes = (
+  <BrowserRouter>
+      <Root />
+  </BrowserRouter>
+);
+
+ReactDOM.render(nodes,
   <Router history={history}>
     <App />
   </Router>,

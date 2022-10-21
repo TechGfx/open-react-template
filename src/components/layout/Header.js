@@ -112,7 +112,10 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link to="docs" onClick={closeMenu}>Docs</Link>
+                    </li>
+                    <li>
+                      <Link to="dashboard" onClick={closeMenu}>Dashboard</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +123,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <Link to="https://discord.com/api/oauth2/authorize?client_id=954537755881390182&permissions=8&scope=bot%20applications.commands" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Añadir a Discord</Link>
                       </li>
                     </ul>}
                 </div>

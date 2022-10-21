@@ -20,7 +20,7 @@ $button--bg: (
 	button-light-hover: 	darken(get-color(light, 1), 5%),
 	button-dark: 			get-color(dark, 2),
 	button-dark-hover: 		lighten(get-color(dark, 2), 2%),
-	button-primary: 		get-color(primary, 1),
+	button-primary: 		#4f338c,
 	button-primary-hover: 	lighten(get-color(primary, 1), 2%),
 	button-secondary: 		get-color(secondary, 1),
 	button-secondary-hover:	lighten(get-color(secondary, 1), 2%),
@@ -35,7 +35,7 @@ $button--border: (
 	button-dark-hover: 		null,
 	button-primary: 		null,
 	button-primary-hover: 	null,
-	button-secondary: 		null,
+	button-secondary: 		#fff,
 	button-secondary-hover: null,
 	button-disabled: 		null
 );

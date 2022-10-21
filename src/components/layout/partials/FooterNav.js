@@ -17,18 +17,9 @@ const FooterNav = ({
       {...props}
       className={classes}
     >
-      <ul className="list-reset">
+      <ul className="button button-primary button-wide-mobile button-sm">
         <li>
-          <Link to="#0">Contact</Link>
-        </li>
-        <li>
-          <Link to="#0">About us</Link>
-        </li>
-        <li>
-          <Link to="#0">FAQ's</Link>
-        </li>
-        <li>
-          <Link to="#0">Support</Link>
+          <Link to="https://discord.gg/fhZeRhEFPn">Servidor de Soporte</Link>
         </li>
       </ul>
     </nav>

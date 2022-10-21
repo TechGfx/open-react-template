@@ -21,10 +21,10 @@ const Logo = ({
       <h1 className="m-0">
         <Link to="/">
           <Image
-            src={require('./../../../assets/images/logo.svg')}
-            alt="Open"
-            width={32}
-            height={32} />
+            src={('https://i.imgur.com/KUfiMeC.png')}
+            alt="Logo"
+            width={57}
+            height={57} />
         </Link>
       </h1>
     </div>
